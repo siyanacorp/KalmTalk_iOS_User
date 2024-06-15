@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901632C1D51BE005D9689 /* AppDelegate.swift */; };
+		39D901662C1D51BE005D9689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901652C1D51BE005D9689 /* SceneDelegate.swift */; };
+		39D901682C1D51BE005D9689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901672C1D51BE005D9689 /* ViewController.swift */; };
+		39D9016B2C1D51BE005D9689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D901692C1D51BE005D9689 /* Main.storyboard */; };
+		39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */; };
+		39D901702C1D51BF005D9689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D9016F2C1D51BF005D9689 /* Assets.xcassets */; };
+		39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D901712C1D51BF005D9689 /* LaunchScreen.storyboard */; };
+		39D9017E2C1D51BF005D9689 /* KalmTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9017D2C1D51BF005D9689 /* KalmTalkTests.swift */; };
+		39D901882C1D51BF005D9689 /* KalmTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */; };
+		39D9018A2C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D9017A2C1D51BF005D9689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D901582C1D51BE005D9689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D9015F2C1D51BE005D9689;
+			remoteInfo = KalmTalk;
+		};
+		39D901842C1D51BF005D9689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D901582C1D51BE005D9689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D9015F2C1D51BE005D9689;
+			remoteInfo = KalmTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39D901602C1D51BE005D9689 /* KalmTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KalmTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D901632C1D51BE005D9689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39D901652C1D51BE005D9689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39D901672C1D51BE005D9689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39D9016A2C1D51BE005D9689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D9016D2C1D51BE005D9689 /* KalmTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KalmTalk.xcdatamodel; sourceTree = "<group>"; };
+		39D9016F2C1D51BF005D9689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D901722C1D51BF005D9689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D901742C1D51BF005D9689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D901792C1D51BF005D9689 /* KalmTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalmTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D9017D2C1D51BF005D9689 /* KalmTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkTests.swift; sourceTree = "<group>"; };
+		39D901832C1D51BF005D9689 /* KalmTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalmTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITests.swift; sourceTree = "<group>"; };
+		39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D9015D2C1D51BE005D9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D901762C1D51BF005D9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D901802C1D51BF005D9689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D901572C1D51BE005D9689 = {
+			isa = PBXGroup;
+			children = (
+				39D901622C1D51BE005D9689 /* KalmTalk */,
+				39D9017C2C1D51BF005D9689 /* KalmTalkTests */,
+				39D901862C1D51BF005D9689 /* KalmTalkUITests */,
+				39D901612C1D51BE005D9689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D901612C1D51BE005D9689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D901602C1D51BE005D9689 /* KalmTalk.app */,
+				39D901792C1D51BF005D9689 /* KalmTalkTests.xctest */,
+				39D901832C1D51BF005D9689 /* KalmTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D901622C1D51BE005D9689 /* KalmTalk */ = {
+			isa = PBXGroup;
+			children = (
+				39D901962C1D51E3005D9689 /* SystemFiles */,
+				39D901972C1D51FC005D9689 /* Storyboards */,
+				39D901992C1D524E005D9689 /* ResourceFiles */,
+				39D901742C1D51BF005D9689 /* Info.plist */,
+				39D9019A2C1D526A005D9689 /* Localdb */,
+			);
+			path = KalmTalk;
+			sourceTree = "<group>";
+		};
+		39D9017C2C1D51BF005D9689 /* KalmTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D9017D2C1D51BF005D9689 /* KalmTalkTests.swift */,
+			);
+			path = KalmTalkTests;
+			sourceTree = "<group>";
+		};
+		39D901862C1D51BF005D9689 /* KalmTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */,
+				39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */,
+			);
+			path = KalmTalkUITests;
+			sourceTree = "<group>";
+		};
+		39D901962C1D51E3005D9689 /* SystemFiles */ = {
+			isa = PBXGroup;
+			children = (
+				39D901632C1D51BE005D9689 /* AppDelegate.swift */,
+				39D901652C1D51BE005D9689 /* SceneDelegate.swift */,
+				39D901672C1D51BE005D9689 /* ViewController.swift */,
+			);
+			path = SystemFiles;
+			sourceTree = "<group>";
+		};
+		39D901972C1D51FC005D9689 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				39D901692C1D51BE005D9689 /* Main.storyboard */,
+				39D901712C1D51BF005D9689 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		39D901982C1D5224005D9689 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39D9016F2C1D51BF005D9689 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		39D901992C1D524E005D9689 /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				39D901982C1D5224005D9689 /* Assets */,
+			);
+			path = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		39D9019A2C1D526A005D9689 /* Localdb */ = {
+			isa = PBXGroup;
+			children = (
+				39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */,
+			);
+			path = Localdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D9015F2C1D51BE005D9689 /* KalmTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D9018D2C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalk" */;
+			buildPhases = (
+				39D9015C2C1D51BE005D9689 /* Sources */,
+				39D9015D2C1D51BE005D9689 /* Frameworks */,
+				39D9015E2C1D51BE005D9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KalmTalk;
+			productName = KalmTalk;
+			productReference = 39D901602C1D51BE005D9689 /* KalmTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D901782C1D51BF005D9689 /* KalmTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D901902C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalkTests" */;
+			buildPhases = (
+				39D901752C1D51BF005D9689 /* Sources */,
+				39D901762C1D51BF005D9689 /* Frameworks */,
+				39D901772C1D51BF005D9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D9017B2C1D51BF005D9689 /* PBXTargetDependency */,
+			);
+			name = KalmTalkTests;
+			productName = KalmTalkTests;
+			productReference = 39D901792C1D51BF005D9689 /* KalmTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39D901822C1D51BF005D9689 /* KalmTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D901932C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalkUITests" */;
+			buildPhases = (
+				39D9017F2C1D51BF005D9689 /* Sources */,
+				39D901802C1D51BF005D9689 /* Frameworks */,
+				39D901812C1D51BF005D9689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D901852C1D51BF005D9689 /* PBXTargetDependency */,
+			);
+			name = KalmTalkUITests;
+			productName = KalmTalkUITests;
+			productReference = 39D901832C1D51BF005D9689 /* KalmTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D901582C1D51BE005D9689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					39D9015F2C1D51BE005D9689 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					39D901782C1D51BF005D9689 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 39D9015F2C1D51BE005D9689;
+					};
+					39D901822C1D51BF005D9689 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 39D9015F2C1D51BE005D9689;
+					};
+				};
+			};
+			buildConfigurationList = 39D9015B2C1D51BE005D9689 /* Build configuration list for PBXProject "KalmTalk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D901572C1D51BE005D9689;
+			productRefGroup = 39D901612C1D51BE005D9689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D9015F2C1D51BE005D9689 /* KalmTalk */,
+				39D901782C1D51BF005D9689 /* KalmTalkTests */,
+				39D901822C1D51BF005D9689 /* KalmTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D9015E2C1D51BE005D9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */,
+				39D901702C1D51BF005D9689 /* Assets.xcassets in Resources */,
+				39D9016B2C1D51BE005D9689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D901772C1D51BF005D9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D901812C1D51BF005D9689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D9015C2C1D51BE005D9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D901682C1D51BE005D9689 /* ViewController.swift in Sources */,
+				39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */,
+				39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */,
+				39D901662C1D51BE005D9689 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D901752C1D51BF005D9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D9017E2C1D51BF005D9689 /* KalmTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D9017F2C1D51BF005D9689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D9018A2C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift in Sources */,
+				39D901882C1D51BF005D9689 /* KalmTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D9017B2C1D51BF005D9689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D9015F2C1D51BE005D9689 /* KalmTalk */;
+			targetProxy = 39D9017A2C1D51BF005D9689 /* PBXContainerItemProxy */;
+		};
+		39D901852C1D51BF005D9689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D9015F2C1D51BE005D9689 /* KalmTalk */;
+			targetProxy = 39D901842C1D51BF005D9689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D901692C1D51BE005D9689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D9016A2C1D51BE005D9689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D901712C1D51BF005D9689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D901722C1D51BF005D9689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D9018B2C1D51BF005D9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39D9018C2C1D51BF005D9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D9018E2C1D51BF005D9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KalmTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D9018F2C1D51BF005D9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KalmTalk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39D901912C1D51BF005D9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalmTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalmTalk";
+			};
+			name = Debug;
+		};
+		39D901922C1D51BF005D9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KalmTalk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KalmTalk";
+			};
+			name = Release;
+		};
+		39D901942C1D51BF005D9689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalmTalk;
+			};
+			name = Debug;
+		};
+		39D901952C1D51BF005D9689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rahul.KalmTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KalmTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D9015B2C1D51BE005D9689 /* Build configuration list for PBXProject "KalmTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D9018B2C1D51BF005D9689 /* Debug */,
+				39D9018C2C1D51BF005D9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D9018D2C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D9018E2C1D51BF005D9689 /* Debug */,
+				39D9018F2C1D51BF005D9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D901902C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D901912C1D51BF005D9689 /* Debug */,
+				39D901922C1D51BF005D9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D901932C1D51BF005D9689 /* Build configuration list for PBXNativeTarget "KalmTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D901942C1D51BF005D9689 /* Debug */,
+				39D901952C1D51BF005D9689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39D9016D2C1D51BE005D9689 /* KalmTalk.xcdatamodel */,
+			);
+			currentVersion = 39D9016D2C1D51BE005D9689 /* KalmTalk.xcdatamodel */;
+			path = KalmTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39D901582C1D51BE005D9689 /* Project object */;
+}
