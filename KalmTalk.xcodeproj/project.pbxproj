@@ -17,6 +17,11 @@
 		39D9017E2C1D51BF005D9689 /* KalmTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9017D2C1D51BF005D9689 /* KalmTalkTests.swift */; };
 		39D901882C1D51BF005D9689 /* KalmTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */; };
 		39D9018A2C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */; };
+		8D3498B02C1EB1CA00894474 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498AF2C1EB1CA00894474 /* FirebaseAnalytics */; };
+		8D3498B22C1EB1CA00894474 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B12C1EB1CA00894474 /* FirebaseAnalyticsSwift */; };
+		8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B32C1EB1CA00894474 /* FirebaseAuth */; };
+		8D3498B62C1EB1CA00894474 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */; };
+		8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,7 @@
 		39D901832C1D51BF005D9689 /* KalmTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalmTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITests.swift; sourceTree = "<group>"; };
 		39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3498B22C1EB1CA00894474 /* FirebaseAnalyticsSwift in Frameworks */,
+				8D3498B62C1EB1CA00894474 /* FirebaseCrashlytics in Frameworks */,
+				8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */,
+				8D3498B02C1EB1CA00894474 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +115,7 @@
 				39D901972C1D51FC005D9689 /* Storyboards */,
 				39D901992C1D524E005D9689 /* ResourceFiles */,
 				39D901742C1D51BF005D9689 /* Info.plist */,
+				8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */,
 				39D9019A2C1D526A005D9689 /* Localdb */,
 			);
 			path = KalmTalk;
@@ -180,12 +191,20 @@
 				39D9015C2C1D51BE005D9689 /* Sources */,
 				39D9015D2C1D51BE005D9689 /* Frameworks */,
 				39D9015E2C1D51BE005D9689 /* Resources */,
+				8D3498B72C1EB29500894474 /* Run Script Crashlytics */,
+				8D3498BA2C1EB99200894474 /* Run Script SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KalmTalk;
+			packageProductDependencies = (
+				8D3498AF2C1EB1CA00894474 /* FirebaseAnalytics */,
+				8D3498B12C1EB1CA00894474 /* FirebaseAnalyticsSwift */,
+				8D3498B32C1EB1CA00894474 /* FirebaseAuth */,
+				8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */,
+			);
 			productName = KalmTalk;
 			productReference = 39D901602C1D51BE005D9689 /* KalmTalk.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 39D901572C1D51BE005D9689;
+			packageReferences = (
+				8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 39D901612C1D51BE005D9689 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -275,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */,
+				8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */,
 				39D901702C1D51BF005D9689 /* Assets.xcassets in Resources */,
 				39D9016B2C1D51BE005D9689 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +318,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D3498B72C1EB29500894474 /* Run Script Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(SRCROOT)/$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(SRCROOT)/$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Run Script Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+		8D3498BA2C1EB99200894474 /* Run Script SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39D9015C2C1D51BE005D9689 /* Sources */ = {
@@ -481,6 +548,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KalmTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -508,6 +577,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KalmTalk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -640,6 +710,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D3498AF2C1EB1CA00894474 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8D3498B12C1EB1CA00894474 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		8D3498B32C1EB1CA00894474 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */ = {
