@@ -24,6 +24,10 @@
 		8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */; };
 		8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */; };
 		8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADE2C2161F800E56647 /* Home.storyboard */; };
+		8DC3EAE22C21677000E56647 /* Therapy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE12C21677000E56647 /* Therapy.storyboard */; };
+		8DC3EAE62C2167D400E56647 /* TherapyViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE52C2167D400E56647 /* TherapyViewC.swift */; };
+		8DC3EAE82C21695800E56647 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE72C21695800E56647 /* Chat.storyboard */; };
+		8DC3EAEC2C21698C00E56647 /* ChatViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3EAEB2C21698C00E56647 /* ChatViewC.swift */; };
 		9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA7B702C2162DE00270D90 /* HomeViewC.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +66,10 @@
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootTabBar.storyboard; sourceTree = "<group>"; };
 		8DC3EADE2C2161F800E56647 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8DC3EAE12C21677000E56647 /* Therapy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Therapy.storyboard; sourceTree = "<group>"; };
+		8DC3EAE52C2167D400E56647 /* TherapyViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyViewC.swift; sourceTree = "<group>"; };
+		8DC3EAE72C21695800E56647 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		8DC3EAEB2C21698C00E56647 /* ChatViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewC.swift; sourceTree = "<group>"; };
 		9DAA7B702C2162DE00270D90 /* HomeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +170,8 @@
 				39D901712C1D51BF005D9689 /* LaunchScreen.storyboard */,
 				8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */,
 				8DC3EADE2C2161F800E56647 /* Home.storyboard */,
+				8DC3EAE12C21677000E56647 /* Therapy.storyboard */,
+				8DC3EAE72C21695800E56647 /* Chat.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -190,10 +200,44 @@
 			path = Localdb;
 			sourceTree = "<group>";
 		};
+		8DC3EAE32C21678200E56647 /* TherapyFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3EAE42C2167B300E56647 /* TherapyScreen */,
+			);
+			path = TherapyFlow;
+			sourceTree = "<group>";
+		};
+		8DC3EAE42C2167B300E56647 /* TherapyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3EAE52C2167D400E56647 /* TherapyViewC.swift */,
+			);
+			path = TherapyScreen;
+			sourceTree = "<group>";
+		};
+		8DC3EAE92C21696900E56647 /* ChatFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3EAEA2C21697800E56647 /* ChatScreen */,
+			);
+			path = ChatFlow;
+			sourceTree = "<group>";
+		};
+		8DC3EAEA2C21697800E56647 /* ChatScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8DC3EAEB2C21698C00E56647 /* ChatViewC.swift */,
+			);
+			path = ChatScreen;
+			sourceTree = "<group>";
+		};
 		9DAA7B6D2C2162A900270D90 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
 				9DAA7B6E2C2162B900270D90 /* HomeFlow */,
+				8DC3EAE32C21678200E56647 /* TherapyFlow */,
+				8DC3EAE92C21696900E56647 /* ChatFlow */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -333,7 +377,9 @@
 				39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */,
 				8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */,
 				8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */,
+				8DC3EAE22C21677000E56647 /* Therapy.storyboard in Resources */,
 				39D901702C1D51BF005D9689 /* Assets.xcassets in Resources */,
+				8DC3EAE82C21695800E56647 /* Chat.storyboard in Resources */,
 				39D9016B2C1D51BE005D9689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +449,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC3EAE62C2167D400E56647 /* TherapyViewC.swift in Sources */,
+				8DC3EAEC2C21698C00E56647 /* ChatViewC.swift in Sources */,
 				39D901682C1D51BE005D9689 /* ViewController.swift in Sources */,
 				39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */,
 				9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */,
