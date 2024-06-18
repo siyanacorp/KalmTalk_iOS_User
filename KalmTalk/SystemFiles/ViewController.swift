@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     // MARK: - IBOUTLETS
     // MARK: - PROPERTIES
+   
     // MARK: - VIEW LIFE CYCLE METHODS
     // TODO: VIEW DID LOAD METHOD
   override func viewDidLoad() {
