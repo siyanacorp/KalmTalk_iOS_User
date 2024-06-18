@@ -22,6 +22,8 @@
 		8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B32C1EB1CA00894474 /* FirebaseAuth */; };
 		8D3498B62C1EB1CA00894474 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */; };
 		8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */; };
+		8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */; };
+		8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADE2C2161F800E56647 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITests.swift; sourceTree = "<group>"; };
 		39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootTabBar.storyboard; sourceTree = "<group>"; };
+		8DC3EADE2C2161F800E56647 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		39D901622C1D51BE005D9689 /* KalmTalk */ = {
 			isa = PBXGroup;
 			children = (
+				8DC3EAE02C21620500E56647 /* Controllers */,
 				39D901962C1D51E3005D9689 /* SystemFiles */,
 				39D901972C1D51FC005D9689 /* Storyboards */,
 				39D901992C1D524E005D9689 /* ResourceFiles */,
@@ -153,6 +158,8 @@
 			children = (
 				39D901692C1D51BE005D9689 /* Main.storyboard */,
 				39D901712C1D51BF005D9689 /* LaunchScreen.storyboard */,
+				8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */,
+				8DC3EADE2C2161F800E56647 /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -179,6 +186,13 @@
 				39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */,
 			);
 			path = Localdb;
+			sourceTree = "<group>";
+		};
+		8DC3EAE02C21620500E56647 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */,
 				39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */,
 				8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */,
+				8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */,
 				39D901702C1D51BF005D9689 /* Assets.xcassets in Resources */,
 				39D9016B2C1D51BE005D9689 /* Main.storyboard in Resources */,
 			);
