@@ -24,6 +24,7 @@
 		8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */; };
 		8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */; };
 		8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADE2C2161F800E56647 /* Home.storyboard */; };
+		9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA7B702C2162DE00270D90 /* HomeViewC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootTabBar.storyboard; sourceTree = "<group>"; };
 		8DC3EADE2C2161F800E56647 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9DAA7B702C2162DE00270D90 /* HomeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +117,9 @@
 		39D901622C1D51BE005D9689 /* KalmTalk */ = {
 			isa = PBXGroup;
 			children = (
-				8DC3EAE02C21620500E56647 /* Controllers */,
 				39D901962C1D51E3005D9689 /* SystemFiles */,
 				39D901972C1D51FC005D9689 /* Storyboards */,
+				9DAA7B6D2C2162A900270D90 /* Flows */,
 				39D901992C1D524E005D9689 /* ResourceFiles */,
 				39D901742C1D51BF005D9689 /* Info.plist */,
 				8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */,
@@ -188,11 +190,28 @@
 			path = Localdb;
 			sourceTree = "<group>";
 		};
-		8DC3EAE02C21620500E56647 /* Controllers */ = {
+		9DAA7B6D2C2162A900270D90 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				9DAA7B6E2C2162B900270D90 /* HomeFlow */,
 			);
-			path = Controllers;
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		9DAA7B6E2C2162B900270D90 /* HomeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA7B6F2C2162C600270D90 /* HomeScreen */,
+			);
+			path = HomeFlow;
+			sourceTree = "<group>";
+		};
+		9DAA7B6F2C2162C600270D90 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA7B702C2162DE00270D90 /* HomeViewC.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,6 +405,7 @@
 			files = (
 				39D901682C1D51BE005D9689 /* ViewController.swift in Sources */,
 				39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */,
+				9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */,
 				39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */,
 				39D901662C1D51BE005D9689 /* SceneDelegate.swift in Sources */,
 			);

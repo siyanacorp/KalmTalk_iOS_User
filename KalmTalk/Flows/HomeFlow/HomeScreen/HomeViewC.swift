@@ -1,12 +1,13 @@
 //
-//  ViewController.swift
+//  HomeViewC.swift
 //  KalmTalk
 //
-//  Created by Rahul Kharwar on 15/06/24.
+//  Created by Aman Kumar on 18/06/24.
 //
+
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewC: UIViewController {
     // MARK: - IBOUTLETS
     // MARK: - PROPERTIES
    
@@ -20,7 +21,6 @@ class ViewController: UIViewController {
 
     // TODO: DEINIT
     deinit{
-        print("ViewController has been REMOVED...!")
+        print("HomeViewC has been REMOVED...!")
     }
-
 }
