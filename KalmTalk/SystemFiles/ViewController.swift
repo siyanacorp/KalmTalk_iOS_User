@@ -5,7 +5,7 @@
 //  Created by Rahul Kharwar on 15/06/24.
 //
 import UIKit
-
+import SocketIO
 class ViewController: UIViewController {
     // MARK: - IBOUTLETS
     // MARK: - PROPERTIES

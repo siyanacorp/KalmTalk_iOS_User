@@ -22,6 +22,9 @@
 		8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B32C1EB1CA00894474 /* FirebaseAuth */; };
 		8D3498B62C1EB1CA00894474 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */; };
 		8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */; };
+		8DA996CD2C22C71E0071D5E6 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA996CC2C22C71E0071D5E6 /* SocketIO */; };
+		8DA996D12C22D5670071D5E6 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996D02C22D5670071D5E6 /* More.storyboard */; };
+		8DA996D42C22D59C0071D5E6 /* MoreViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */; };
 		8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */; };
 		8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADE2C2161F800E56647 /* Home.storyboard */; };
 		8DC3EAE22C21677000E56647 /* Therapy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE12C21677000E56647 /* Therapy.storyboard */; };
@@ -64,6 +67,8 @@
 		39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITests.swift; sourceTree = "<group>"; };
 		39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DA996D02C22D5670071D5E6 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
+		8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewC.swift; sourceTree = "<group>"; };
 		8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootTabBar.storyboard; sourceTree = "<group>"; };
 		8DC3EADE2C2161F800E56647 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		8DC3EAE12C21677000E56647 /* Therapy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Therapy.storyboard; sourceTree = "<group>"; };
@@ -81,6 +86,7 @@
 				8D3498B22C1EB1CA00894474 /* FirebaseAnalyticsSwift in Frameworks */,
 				8D3498B62C1EB1CA00894474 /* FirebaseCrashlytics in Frameworks */,
 				8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */,
+				8DA996CD2C22C71E0071D5E6 /* SocketIO in Frameworks */,
 				8D3498B02C1EB1CA00894474 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,6 +178,7 @@
 				8DC3EADE2C2161F800E56647 /* Home.storyboard */,
 				8DC3EAE12C21677000E56647 /* Therapy.storyboard */,
 				8DC3EAE72C21695800E56647 /* Chat.storyboard */,
+				8DA996D02C22D5670071D5E6 /* More.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -198,6 +205,22 @@
 				39D9016C2C1D51BE005D9689 /* KalmTalk.xcdatamodeld */,
 			);
 			path = Localdb;
+			sourceTree = "<group>";
+		};
+		8DA996CE2C22D5350071D5E6 /* MoreFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8DA996D22C22D57B0071D5E6 /* MoreScreen */,
+			);
+			path = MoreFlow;
+			sourceTree = "<group>";
+		};
+		8DA996D22C22D57B0071D5E6 /* MoreScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */,
+			);
+			path = MoreScreen;
 			sourceTree = "<group>";
 		};
 		8DC3EAE32C21678200E56647 /* TherapyFlow */ = {
@@ -238,6 +261,7 @@
 				9DAA7B6E2C2162B900270D90 /* HomeFlow */,
 				8DC3EAE32C21678200E56647 /* TherapyFlow */,
 				8DC3EAE92C21696900E56647 /* ChatFlow */,
+				8DA996CE2C22D5350071D5E6 /* MoreFlow */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -281,6 +305,7 @@
 				8D3498B12C1EB1CA00894474 /* FirebaseAnalyticsSwift */,
 				8D3498B32C1EB1CA00894474 /* FirebaseAuth */,
 				8D3498B52C1EB1CA00894474 /* FirebaseCrashlytics */,
+				8DA996CC2C22C71E0071D5E6 /* SocketIO */,
 			);
 			productName = KalmTalk;
 			productReference = 39D901602C1D51BE005D9689 /* KalmTalk.app */;
@@ -356,6 +381,7 @@
 			mainGroup = 39D901572C1D51BE005D9689;
 			packageReferences = (
 				8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8DA996CB2C22C71E0071D5E6 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
 			);
 			productRefGroup = 39D901612C1D51BE005D9689 /* Products */;
 			projectDirPath = "";
@@ -374,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */,
+				8DA996D12C22D5670071D5E6 /* More.storyboard in Resources */,
 				39D901732C1D51BF005D9689 /* LaunchScreen.storyboard in Resources */,
 				8D3498B92C1EB52E00894474 /* GoogleService-Info.plist in Resources */,
 				8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */,
@@ -452,6 +479,7 @@
 				8DC3EAE62C2167D400E56647 /* TherapyViewC.swift in Sources */,
 				8DC3EAEC2C21698C00E56647 /* ChatViewC.swift in Sources */,
 				39D901682C1D51BE005D9689 /* ViewController.swift in Sources */,
+				8DA996D42C22D59C0071D5E6 /* MoreViewC.swift in Sources */,
 				39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */,
 				9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */,
 				39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */,
@@ -804,6 +832,14 @@
 				minimumVersion = 10.27.0;
 			};
 		};
+		8DA996CB2C22C71E0071D5E6 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -826,6 +862,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8D3498AE2C1EB1CA00894474 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
+		};
+		8DA996CC2C22C71E0071D5E6 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA996CB2C22C71E0071D5E6 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
 		};
 /* End XCSwiftPackageProductDependency section */
 
