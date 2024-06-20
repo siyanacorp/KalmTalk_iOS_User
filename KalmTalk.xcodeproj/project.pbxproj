@@ -25,6 +25,7 @@
 		8DA996CD2C22C71E0071D5E6 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA996CC2C22C71E0071D5E6 /* SocketIO */; };
 		8DA996D12C22D5670071D5E6 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA996D02C22D5670071D5E6 /* More.storyboard */; };
 		8DA996D42C22D59C0071D5E6 /* MoreViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */; };
+		8DAB61692C24201400CC15CC /* SettingViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB61682C24201400CC15CC /* SettingViewC.swift */; };
 		8DC3EADD2C2161A200E56647 /* RootTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */; };
 		8DC3EADF2C2161F800E56647 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EADE2C2161F800E56647 /* Home.storyboard */; };
 		8DC3EAE22C21677000E56647 /* Therapy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE12C21677000E56647 /* Therapy.storyboard */; };
@@ -69,6 +70,7 @@
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DA996D02C22D5670071D5E6 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewC.swift; sourceTree = "<group>"; };
+		8DAB61682C24201400CC15CC /* SettingViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewC.swift; sourceTree = "<group>"; };
 		8DC3EADC2C2161A200E56647 /* RootTabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootTabBar.storyboard; sourceTree = "<group>"; };
 		8DC3EADE2C2161F800E56647 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		8DC3EAE12C21677000E56647 /* Therapy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Therapy.storyboard; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA996D22C22D57B0071D5E6 /* MoreScreen */,
+				8DAB61672C241FE600CC15CC /* SettingScreen */,
 			);
 			path = MoreFlow;
 			sourceTree = "<group>";
@@ -221,6 +224,14 @@
 				8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */,
 			);
 			path = MoreScreen;
+			sourceTree = "<group>";
+		};
+		8DAB61672C241FE600CC15CC /* SettingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB61682C24201400CC15CC /* SettingViewC.swift */,
+			);
+			path = SettingScreen;
 			sourceTree = "<group>";
 		};
 		8DC3EAE32C21678200E56647 /* TherapyFlow */ = {
@@ -484,6 +495,7 @@
 				9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */,
 				39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */,
 				39D901662C1D51BE005D9689 /* SceneDelegate.swift in Sources */,
+				8DAB61692C24201400CC15CC /* SettingViewC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
