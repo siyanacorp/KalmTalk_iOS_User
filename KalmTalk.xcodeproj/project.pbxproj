@@ -17,6 +17,7 @@
 		39D9017E2C1D51BF005D9689 /* KalmTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9017D2C1D51BF005D9689 /* KalmTalkTests.swift */; };
 		39D901882C1D51BF005D9689 /* KalmTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */; };
 		39D9018A2C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */; };
+		8D2088EC2C2983B400EA34B2 /* MoreViewC+CustomMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2088EB2C2983B400EA34B2 /* MoreViewC+CustomMethods.swift */; };
 		8D3498B02C1EB1CA00894474 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498AF2C1EB1CA00894474 /* FirebaseAnalytics */; };
 		8D3498B22C1EB1CA00894474 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B12C1EB1CA00894474 /* FirebaseAnalyticsSwift */; };
 		8D3498B42C1EB1CA00894474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D3498B32C1EB1CA00894474 /* FirebaseAuth */; };
@@ -32,6 +33,7 @@
 		8DC3EAE62C2167D400E56647 /* TherapyViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE52C2167D400E56647 /* TherapyViewC.swift */; };
 		8DC3EAE82C21695800E56647 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC3EAE72C21695800E56647 /* Chat.storyboard */; };
 		8DC3EAEC2C21698C00E56647 /* ChatViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC3EAEB2C21698C00E56647 /* ChatViewC.swift */; };
+		8DC65EA12C2892C200077083 /* MoreViewC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC65EA02C2892C200077083 /* MoreViewC+TableView.swift */; };
 		9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA7B702C2162DE00270D90 /* HomeViewC.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,7 @@
 		39D901832C1D51BF005D9689 /* KalmTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalmTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D901872C1D51BF005D9689 /* KalmTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITests.swift; sourceTree = "<group>"; };
 		39D901892C1D51BF005D9689 /* KalmTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D2088EB2C2983B400EA34B2 /* MoreViewC+CustomMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreViewC+CustomMethods.swift"; sourceTree = "<group>"; };
 		8D3498B82C1EB52E00894474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8DA996D02C22D5670071D5E6 /* More.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = More.storyboard; sourceTree = "<group>"; };
 		8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewC.swift; sourceTree = "<group>"; };
@@ -77,6 +80,7 @@
 		8DC3EAE52C2167D400E56647 /* TherapyViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyViewC.swift; sourceTree = "<group>"; };
 		8DC3EAE72C21695800E56647 /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		8DC3EAEB2C21698C00E56647 /* ChatViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewC.swift; sourceTree = "<group>"; };
+		8DC65EA02C2892C200077083 /* MoreViewC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoreViewC+TableView.swift"; sourceTree = "<group>"; };
 		9DAA7B702C2162DE00270D90 /* HomeViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -222,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				8DA996D32C22D59C0071D5E6 /* MoreViewC.swift */,
+				8DC65EA02C2892C200077083 /* MoreViewC+TableView.swift */,
+				8D2088EB2C2983B400EA34B2 /* MoreViewC+CustomMethods.swift */,
 			);
 			path = MoreScreen;
 			sourceTree = "<group>";
@@ -491,11 +497,13 @@
 				8DC3EAEC2C21698C00E56647 /* ChatViewC.swift in Sources */,
 				39D901682C1D51BE005D9689 /* ViewController.swift in Sources */,
 				8DA996D42C22D59C0071D5E6 /* MoreViewC.swift in Sources */,
+				8D2088EC2C2983B400EA34B2 /* MoreViewC+CustomMethods.swift in Sources */,
 				39D901642C1D51BE005D9689 /* AppDelegate.swift in Sources */,
 				9DAA7B712C2162DE00270D90 /* HomeViewC.swift in Sources */,
 				39D9016E2C1D51BE005D9689 /* KalmTalk.xcdatamodeld in Sources */,
 				39D901662C1D51BE005D9689 /* SceneDelegate.swift in Sources */,
 				8DAB61692C24201400CC15CC /* SettingViewC.swift in Sources */,
+				8DC65EA12C2892C200077083 /* MoreViewC+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
